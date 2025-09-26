@@ -4,11 +4,12 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
   define: {
     global: 'globalThis',
   },
-  base: './',  // << Add this line
+   base: '/swiftshare-frontend/',  // << Add this line
 });
