@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("http://localhost:9090/")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
