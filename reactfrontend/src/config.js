@@ -1,6 +1,6 @@
 const config = 
 {
-    "url":"http://localhost:2025"
+    "url":"http://localhost:9090/swiftshare"
 }
 
 export default config
